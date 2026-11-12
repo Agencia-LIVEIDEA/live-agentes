@@ -14,8 +14,9 @@
     {
       "name": "live-atendimento",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-atendimento"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-atendimento.git",
+        "path": "agentes"
       },
       "description": "Atendimento: skills e agentes do time.",
       "category": "departamento"
@@ -23,8 +24,9 @@
     {
       "name": "live-producao",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-producao"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-producao.git",
+        "path": "agentes"
       },
       "description": "Produção: skills e agentes do time.",
       "category": "departamento"
@@ -32,8 +34,9 @@
     {
       "name": "live-financeiro",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-financeiro"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-financeiro.git",
+        "path": "agentes"
       },
       "description": "Financeiro: skills e agentes do time.",
       "category": "departamento"
@@ -41,8 +44,9 @@
     {
       "name": "live-planejamento",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-planejamento"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-planejamento.git",
+        "path": "agentes"
       },
       "description": "Planejamento: skills e agentes do time.",
       "category": "departamento"
@@ -50,8 +54,9 @@
     {
       "name": "live-criacao",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-criacao"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-criacao.git",
+        "path": "agentes"
       },
       "description": "Criação: skills e agentes do time.",
       "category": "departamento"
@@ -59,8 +64,9 @@
     {
       "name": "live-marketing",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-marketing"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-marketing.git",
+        "path": "agentes"
       },
       "description": "Marketing: skills e agentes do time.",
       "category": "departamento"
@@ -68,8 +74,9 @@
     {
       "name": "live-rh",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-rh"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-rh.git",
+        "path": "agentes"
       },
       "description": "RH: skills e agentes do time.",
       "category": "departamento"
@@ -77,8 +84,9 @@
     {
       "name": "live-martech",
       "source": {
-        "source": "github",
-        "repo": "Agencia-LIVEIDEA/live-agentes-martech"
+        "source": "git-subdir",
+        "url": "https://github.com/Agencia-LIVEIDEA/live-martech.git",
+        "path": "agentes"
       },
       "description": "Martech: skills e agentes do time.",
       "category": "departamento"
