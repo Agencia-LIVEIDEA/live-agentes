@@ -4,7 +4,7 @@ Skills do time de **Martech**.
 
 **O que entra aqui:** CRM, automação de marketing, dados, analytics e integrações.
 
-**Dono:** time Martech no GitHub (`@Agencia-LIVEIDEA/martech`). Ele revisa e aprova as mudanças nesta pasta.
+**Para quem:** time Martech. Mudanças entram por pull request e são aprovadas pelo Martech.
 
 ## Skills
 

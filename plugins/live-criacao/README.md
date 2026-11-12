@@ -2,7 +2,7 @@
 
 Skills do time de **Criação**: produção criativa com IA.
 
-**Dono:** time Criação no GitHub (`@Agencia-LIVEIDEA/criacao`). Ele revisa e aprova as mudanças nesta pasta.
+**Para quem:** time Criação. Mudanças entram por pull request e são aprovadas pelo Martech.
 
 ## Skills
 

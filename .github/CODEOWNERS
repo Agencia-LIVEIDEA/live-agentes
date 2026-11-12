@@ -1,26 +1,7 @@
-# Quem aprova mudanças em cada pasta do live-agentes.
-# Toda mudança entra por pull request; o GitHub pede a revisão do time dono da pasta.
-# Vale a última regra que combina com o arquivo, então as regras gerais vêm primeiro.
+# Quem aprova mudanças no live-agentes: o time Martech.
+# Os times de departamento só leem e abrem pull request.
+# Donos da organização também podem aprovar e fazer merge (regra de bypass no GitHub, ver README).
 #
-# Conferir: o nome depois de @Agencia-LIVEIDEA/ é o "slug" do time no GitHub
-# (aparece na URL github.com/orgs/Agencia-LIVEIDEA/teams/<slug>).
+# Conferir o slug do time em github.com/orgs/Agencia-LIVEIDEA/teams/<slug>.
 
-# Tudo que não tem dono específico: Martech
-*                               @Agencia-LIVEIDEA/martech
-
-# Base geral, modelos e a lista de plugins da loja: Martech
-/plugins/live-geral/            @Agencia-LIVEIDEA/martech
-/_modelos/                      @Agencia-LIVEIDEA/martech
-/.claude-plugin/                @Agencia-LIVEIDEA/martech
-/.github/                       @Agencia-LIVEIDEA/martech
-
-# Cada departamento cuida da sua pasta
-/plugins/live-atendimento/      @Agencia-LIVEIDEA/atendimento
-/plugins/live-producao/         @Agencia-LIVEIDEA/producao
-/plugins/live-planejamento/     @Agencia-LIVEIDEA/planejamento
-/plugins/live-criacao/          @Agencia-LIVEIDEA/criacao
-/plugins/live-marketing/        @Agencia-LIVEIDEA/marketing
-/plugins/live-martech/          @Agencia-LIVEIDEA/martech
-
-# RH e Financeiro ficam em repositórios privados próprios:
-# Agencia-LIVEIDEA/live-agentes-rh e Agencia-LIVEIDEA/live-agentes-financeiro
+*    @Agencia-LIVEIDEA/martech

@@ -4,7 +4,7 @@ Skills do time de **Marketing**.
 
 **O que entra aqui:** conteúdo, redes sociais, cases e comunicação da própria Live Idea.
 
-**Dono:** time Marketing no GitHub (`@Agencia-LIVEIDEA/marketing`). Ele revisa e aprova as mudanças nesta pasta.
+**Para quem:** time Marketing. Mudanças entram por pull request e são aprovadas pelo Martech.
 
 ## Skills
 
