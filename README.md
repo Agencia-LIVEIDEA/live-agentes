@@ -18,7 +18,7 @@ Este repositório é a **loja de plugins** do Claude Code da agência. Ele guard
 | `live-rh` | `live-rh` | RH | Só RH e Martech |
 | `live-financeiro` | `live-financeiro` | Financeiro | Só Financeiro e Martech |
 
-O que já existe: `memoria-projeto` no `live-geral` e as 7 skills `live-*` no `live-criacao`. Os outros departamentos começam vazios.
+O que já existe: `memoria-projeto` e `id-liveidea` no `live-geral` e as 7 skills `live-*` no `live-criacao`. Os outros departamentos começam vazios.
 
 ## Como instalar (Claude Code)
 

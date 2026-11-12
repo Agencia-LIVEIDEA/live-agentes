@@ -9,6 +9,7 @@ Base que **todo o time** da LIVEIDEA instala: skills e agentes que servem a qual
 | Skill | O que faz |
 | --- | --- |
 | `memoria-projeto` | Lê e registra a memória comum dos jobs (repositório `live-memoria`), em três níveis: agência, cliente e projeto. |
+| `id-liveidea` | Aplica o design system da LIVEIDEA (sempre a última versão da `main` do repositório `id-liveidea`) em apresentações, documentos, planilhas e páginas HTML. Precisa de acesso ao repositório `id-liveidea` no GitHub. |
 
 ## Agentes
 
