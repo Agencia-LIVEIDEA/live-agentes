@@ -25,8 +25,11 @@
     },
     {
       "name": "live-financeiro",
-      "source": "./plugins/live-financeiro",
-      "description": "Financeiro: planilhas de custo, orçamentos, conciliação e faturamento.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-financeiro"
+      },
+      "description": "Financeiro: skills do time (repositório privado, só o time instala).",
       "category": "departamento"
     },
     {
@@ -49,8 +52,11 @@
     },
     {
       "name": "live-rh",
-      "source": "./plugins/live-rh",
-      "description": "RH: recrutamento, onboarding e rotinas de pessoas.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-rh"
+      },
+      "description": "RH: skills do time (repositório privado, só o time instala).",
       "category": "departamento"
     },
     {

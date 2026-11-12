@@ -17,9 +17,10 @@
 # Cada departamento cuida da sua pasta
 /plugins/live-atendimento/      @Agencia-LIVEIDEA/atendimento
 /plugins/live-producao/         @Agencia-LIVEIDEA/producao
-/plugins/live-financeiro/       @Agencia-LIVEIDEA/financeiro
 /plugins/live-planejamento/     @Agencia-LIVEIDEA/planejamento
 /plugins/live-criacao/          @Agencia-LIVEIDEA/criacao
 /plugins/live-marketing/        @Agencia-LIVEIDEA/marketing
-/plugins/live-rh/               @Agencia-LIVEIDEA/rh
 /plugins/live-martech/          @Agencia-LIVEIDEA/martech
+
+# RH e Financeiro ficam em repositórios privados próprios:
+# Agencia-LIVEIDEA/live-agentes-rh e Agencia-LIVEIDEA/live-agentes-financeiro

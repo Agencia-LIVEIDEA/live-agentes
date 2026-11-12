@@ -4,6 +4,8 @@ Agentes de IA e skills da Live Idea para o Claude. Mantido pelo time de Martech.
 
 O repositório é uma **loja de plugins** do Claude Code. Cada pessoa instala o plugin geral e o do seu departamento.
 
+Quase todos os plugins moram aqui, em `plugins/`. Os de **RH** e **Financeiro** moram em repositórios privados próprios, que só o time de cada um consegue ver. A loja aponta para eles, e quem não tem acesso não consegue instalar.
+
 ## Plugins
 
 | Plugin | Para quem | O que traz |
@@ -11,11 +13,11 @@ O repositório é uma **loja de plugins** do Claude Code. Cada pessoa instala o 
 | `live-geral` | Todo o time | Skills e agentes gerais. Hoje: `memoria-projeto`. |
 | `live-atendimento` | Atendimento | A criar |
 | `live-producao` | Produção | A criar |
-| `live-financeiro` | Financeiro | A criar |
+| `live-financeiro` | Financeiro | A criar. Repositório privado `live-agentes-financeiro` |
 | `live-planejamento` | Planejamento | A criar |
 | `live-criacao` | Criação | `human-image`, `human-motion`, `human-cinematic`, `human-carrossel`, `human-social`, `human-dna`, `human-team` |
 | `live-marketing` | Marketing | A criar |
-| `live-rh` | RH | A criar |
+| `live-rh` | RH | A criar. Repositório privado `live-agentes-rh` |
 | `live-martech` | Martech | A criar |
 
 ## Como instalar (Claude Code)
@@ -59,17 +61,22 @@ live-agentes/
     │   ├── .claude-plugin/plugin.json
     │   ├── skills/<skill>/SKILL.md
     │   └── agents/<agente>.md
-    └── live-<departamento>/            ← um por departamento
+    └── live-<departamento>/            ← um por departamento (menos RH e Financeiro)
         ├── .claude-plugin/plugin.json
         ├── README.md
         └── skills/<skill>/SKILL.md
+
+live-agentes-rh/           ← repositório privado, só RH e Martech
+live-agentes-financeiro/   ← repositório privado, só Financeiro e Martech
+├── .claude-plugin/plugin.json    ← o plugin fica na raiz
+└── skills/<skill>/SKILL.md
 ```
 
 ## Onde colocar cada coisa
 
 - **Skill geral** (serve a qualquer departamento): `plugins/live-geral/skills/`.
 - **Agente**: `plugins/live-geral/agents/`. Agentes são todos gerais por enquanto.
-- **Skill de departamento** (só faz sentido para um time): `plugins/live-<departamento>/skills/`.
+- **Skill de departamento** (só faz sentido para um time): `plugins/live-<departamento>/skills/`. Para RH e Financeiro, `skills/` no repositório privado de cada um.
 - Na dúvida entre geral e departamento, comece no departamento. Quando outro time pedir, ela sobe para o geral.
 
 ## Quem cuida de cada pasta
@@ -81,14 +88,14 @@ Cada time da organização no GitHub é dono da pasta do seu departamento. O don
 | `plugins/live-geral/`, `_modelos/`, `.claude-plugin/`, raiz | Martech |
 | `plugins/live-atendimento/` | Atendimento |
 | `plugins/live-producao/` | Produção |
-| `plugins/live-financeiro/` | Financeiro |
 | `plugins/live-planejamento/` | Planejamento |
 | `plugins/live-criacao/` | Criação |
 | `plugins/live-marketing/` | Marketing |
-| `plugins/live-rh/` | RH |
 | `plugins/live-martech/` | Martech |
 
-Isso controla **quem aprova**, não quem enxerga: todo mundo com acesso ao repositório lê todas as pastas, e qualquer pessoa pode instalar qualquer plugin. Skill com informação que um time não pode ver não entra aqui.
+Isso controla **quem aprova**, não quem enxerga: todo mundo com acesso a este repositório lê todas as pastas. Por isso RH e Financeiro ficam fora daqui, em repositórios privados. Se outro departamento precisar esconder o conteúdo, ele ganha um repositório próprio do mesmo jeito.
+
+Mesmo para RH e Financeiro, o nome e a descrição do plugin aparecem na loja para todo mundo. A descrição em `marketplace.json` não pode revelar nada sensível.
 
 ## Como contribuir
 
@@ -107,9 +114,10 @@ Regras:
 
 ## Configuração no GitHub (uma vez, feita por um admin da organização)
 
-1. Em **Settings → Collaborators and teams** do repositório, dê aos 8 times o papel **Write**. Sem isso eles não conseguem abrir pull request a partir de um branch do repositório.
-2. Em **Settings → Rules** (ou **Branches**), proteja o `main`: exigir pull request, exigir aprovação de **Code Owners** e bloquear push direto.
-3. Confira se os nomes dos times em `.github/CODEOWNERS` batem com o slug de cada time (URL `github.com/orgs/Agencia-LIVEIDEA/teams/<slug>`). Times com acento, como Produção e Criação, podem ter slug diferente. O GitHub avisa no próprio arquivo se algum nome não existir.
+1. Em **Settings → Collaborators and teams** do `live-agentes`, dê **Write** aos 6 times com pasta aqui (Atendimento, Produção, Planejamento, Criação, Marketing, Martech) e **Read** a RH e Financeiro, que precisam ler este repositório para instalar o `live-geral`.
+2. Crie os repositórios privados `live-agentes-rh` e `live-agentes-financeiro`. Em cada um, dê **Write** só ao time dono e ao Martech. Confira também a permissão base da organização (**Settings → Member privileges → Base permissions**): ela precisa estar em **No permission**. Se estiver em **Read**, todo membro da organização vê todos os repositórios privados, inclusive estes.
+3. Em **Settings → Rules** (ou **Branches**) de cada repositório, proteja o `main`: exigir pull request, exigir aprovação de **Code Owners** e bloquear push direto.
+4. Confira se os nomes dos times em `.github/CODEOWNERS` batem com o slug de cada time (URL `github.com/orgs/Agencia-LIVEIDEA/teams/<slug>`). Times com acento, como Produção e Criação, podem ter slug diferente. O GitHub avisa no próprio arquivo se algum nome não existir.
 
 Exigir aprovação de Code Owners em repositório privado depende do plano GitHub Team (ou superior) da organização.
 
