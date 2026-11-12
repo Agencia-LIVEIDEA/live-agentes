@@ -4,7 +4,7 @@ Skills do time de **Planejamento**.
 
 **O que entra aqui:** pesquisa de mercado e público, estratégia, insights, conceito e defesa de proposta.
 
-**Dono:** a definir.
+**Dono:** time Planejamento no GitHub (`@Agencia-LIVEIDEA/planejamento`). Ele revisa e aprova as mudanças nesta pasta.
 
 ## Skills
 

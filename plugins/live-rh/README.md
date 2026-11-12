@@ -4,7 +4,7 @@ Skills do time de **RH**.
 
 **O que entra aqui:** vagas, triagem, onboarding, políticas internas e rotinas de pessoas.
 
-**Dono:** a definir.
+**Dono:** time RH no GitHub (`@Agencia-LIVEIDEA/rh`). Ele revisa e aprova as mudanças nesta pasta.
 
 ## Skills
 

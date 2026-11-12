@@ -4,7 +4,7 @@ Skills do time de **Atendimento**.
 
 **O que entra aqui:** briefings, atas de reunião, status reports, follow-ups e tudo que organiza a relação com o cliente.
 
-**Dono:** a definir.
+**Dono:** time Atendimento no GitHub (`@Agencia-LIVEIDEA/atendimento`). Ele revisa e aprova as mudanças nesta pasta.
 
 ## Skills
 

@@ -4,7 +4,7 @@ Skills do time de **Financeiro**.
 
 **O que entra aqui:** planilhas de custo, orçamentos, conciliação, faturamento e relatórios financeiros.
 
-**Dono:** a definir.
+**Dono:** time Financeiro no GitHub (`@Agencia-LIVEIDEA/financeiro`). Ele revisa e aprova as mudanças nesta pasta.
 
 ## Skills
 

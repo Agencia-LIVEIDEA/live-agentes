@@ -2,7 +2,7 @@
 
 Base que **todo o time** da Live Idea instala: skills e agentes que servem a qualquer departamento.
 
-**Dono:** Martech.
+**Dono:** time Martech no GitHub (`@Agencia-LIVEIDEA/martech`).
 
 ## Skills
 

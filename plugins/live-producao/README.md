@@ -4,7 +4,7 @@ Skills do time de **Produção**.
 
 **O que entra aqui:** cronogramas, checklists de evento, cotação e controle de fornecedores, roteiros de montagem.
 
-**Dono:** a definir.
+**Dono:** time Produção no GitHub (`@Agencia-LIVEIDEA/producao`). Ele revisa e aprova as mudanças nesta pasta.
 
 ## Skills
 
