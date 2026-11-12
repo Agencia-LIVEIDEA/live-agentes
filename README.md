@@ -47,7 +47,10 @@ As skills aparecem como `/live-geral:memoria-projeto`, `/live-criacao:human-imag
 
 Para receber as novidades: `claude plugin marketplace update live-agentes`.
 
-Os repositórios são privados, então o seu computador precisa estar logado no GitHub pelo git (no Windows, o Git Credential Manager pede o login na primeira vez que você clona algo da organização). Se a instalação falhar com erro de acesso, clone qualquer repositório da organização uma vez para fazer o login e tente de novo.
+### Se a instalação der erro
+
+- **Erro de acesso ou de login** (`Authentication failed`, `Repository not found`): o seu computador precisa estar logado no GitHub pelo git, e você precisa ter acesso ao repositório do plugin. No Windows, clone qualquer repositório da organização uma vez para o Git Credential Manager pedir o login. Depois rode `setx CLAUDE_CODE_PLUGIN_PREFER_HTTPS 1`, feche e abra o terminal e tente de novo.
+- **`Filename too long`** (comum no `live-criacao`, que tem pastas fundas): rode `git config --global core.longpaths true` e tente de novo.
 
 ## Estrutura
 
