@@ -18,7 +18,7 @@ Este repositório é a **loja de plugins** do Claude Code da agência. Ele guard
 | `live-rh` | `live-rh` | RH | Só RH e Martech |
 | `live-financeiro` | `live-financeiro` | Financeiro | Só Financeiro e Martech |
 
-O que já existe: `memoria-projeto` no `live-geral` e as 7 skills `human-*` no `live-criacao`. Os outros departamentos começam vazios.
+O que já existe: `memoria-projeto` no `live-geral` e as 7 skills `live-*` no `live-criacao`. Os outros departamentos começam vazios.
 
 ## Como instalar (Claude Code)
 
@@ -43,7 +43,7 @@ Uma vez por computador. Você precisa ter acesso à organização `Agencia-LIVEI
    git clone https://github.com/Agencia-LIVEIDEA/live-memoria.git C:/dev/liveidea/live-memoria
    ```
 
-As skills aparecem como `/live-geral:memoria-projeto`, `/live-criacao:human-image` etc. Skills e agentes também entram sozinhos quando o pedido combina com a descrição deles.
+As skills aparecem como `/live-geral:memoria-projeto`, `/live-criacao:live-image` etc. Skills e agentes também entram sozinhos quando o pedido combina com a descrição deles.
 
 Para receber as novidades: `claude plugin marketplace update live-agentes`.
 
@@ -137,5 +137,5 @@ Exigir aprovação de Code Owners em repositório privado depende do plano GitHu
 
 ## Pendências
 
-- [ ] Licença das skills `human-*` para uso pelo time todo.
+- [ ] Licença das skills `live-*` para uso pelo time todo.
 - [ ] Primeira skill ou agente de cada departamento.
