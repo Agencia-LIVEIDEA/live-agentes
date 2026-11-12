@@ -1,6 +1,6 @@
 {
   "name": "live-agentes",
-  "description": "Agentes de IA e skills da LIVEIDEA: uma base geral para todo o time e um plugin por departamento.",
+  "description": "Agentes de IA e skills da LIVEIDEA: uma base geral para todo o time e um repositório por departamento.",
   "owner": {
     "name": "LIVEIDEA · Martech"
   },
@@ -13,14 +13,20 @@
     },
     {
       "name": "live-atendimento",
-      "source": "./plugins/live-atendimento",
-      "description": "Atendimento: briefings, atas, status reports e relação com o cliente.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-atendimento"
+      },
+      "description": "Atendimento: skills e agentes do time.",
       "category": "departamento"
     },
     {
       "name": "live-producao",
-      "source": "./plugins/live-producao",
-      "description": "Produção: cronogramas, checklists, fornecedores e execução de jobs.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-producao"
+      },
+      "description": "Produção: skills e agentes do time.",
       "category": "departamento"
     },
     {
@@ -29,25 +35,34 @@
         "source": "github",
         "repo": "Agencia-LIVEIDEA/live-agentes-financeiro"
       },
-      "description": "Financeiro: skills do time (repositório privado, só o time instala).",
+      "description": "Financeiro: skills e agentes do time.",
       "category": "departamento"
     },
     {
       "name": "live-planejamento",
-      "source": "./plugins/live-planejamento",
-      "description": "Planejamento: pesquisa, estratégia, insights e conceito.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-planejamento"
+      },
+      "description": "Planejamento: skills e agentes do time.",
       "category": "departamento"
     },
     {
       "name": "live-criacao",
-      "source": "./plugins/live-criacao",
-      "description": "Criação: imagem, motion, cinematic, carrossel, social, DNA de marca e squad criativa (human-*).",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-criacao"
+      },
+      "description": "Criação: skills e agentes do time.",
       "category": "departamento"
     },
     {
       "name": "live-marketing",
-      "source": "./plugins/live-marketing",
-      "description": "Marketing: conteúdo, redes sociais e cases da própria LIVEIDEA.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-marketing"
+      },
+      "description": "Marketing: skills e agentes do time.",
       "category": "departamento"
     },
     {
@@ -56,13 +71,16 @@
         "source": "github",
         "repo": "Agencia-LIVEIDEA/live-agentes-rh"
       },
-      "description": "RH: skills do time (repositório privado, só o time instala).",
+      "description": "RH: skills e agentes do time.",
       "category": "departamento"
     },
     {
       "name": "live-martech",
-      "source": "./plugins/live-martech",
-      "description": "Martech: CRM, automação, dados e analytics.",
+      "source": {
+        "source": "github",
+        "repo": "Agencia-LIVEIDEA/live-agentes-martech"
+      },
+      "description": "Martech: skills e agentes do time.",
       "category": "departamento"
     }
   ]
