@@ -1,8 +1,8 @@
 {
   "name": "live-agentes",
-  "description": "Agentes de IA e skills da Live Idea: uma base geral para todo o time e um plugin por departamento.",
+  "description": "Agentes de IA e skills da LIVEIDEA: uma base geral para todo o time e um plugin por departamento.",
   "owner": {
-    "name": "Live Idea · Martech"
+    "name": "LIVEIDEA · Martech"
   },
   "plugins": [
     {
@@ -47,7 +47,7 @@
     {
       "name": "live-marketing",
       "source": "./plugins/live-marketing",
-      "description": "Marketing: conteúdo, redes sociais e cases da própria Live Idea.",
+      "description": "Marketing: conteúdo, redes sociais e cases da própria LIVEIDEA.",
       "category": "departamento"
     },
     {

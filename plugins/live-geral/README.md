@@ -1,6 +1,6 @@
 # live-geral
 
-Base que **todo o time** da Live Idea instala: skills e agentes que servem a qualquer departamento.
+Base que **todo o time** da LIVEIDEA instala: skills e agentes que servem a qualquer departamento.
 
 **Para quem:** todo o time. Mudanças entram por pull request e são aprovadas pelo Martech.
 

@@ -2,7 +2,7 @@
 
 Skills do time de **Marketing**.
 
-**O que entra aqui:** conteúdo, redes sociais, cases e comunicação da própria Live Idea.
+**O que entra aqui:** conteúdo, redes sociais, cases e comunicação da própria LIVEIDEA.
 
 **Para quem:** time Marketing. Mudanças entram por pull request e são aprovadas pelo Martech.
 

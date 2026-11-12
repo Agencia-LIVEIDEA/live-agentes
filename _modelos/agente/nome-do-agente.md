@@ -4,7 +4,7 @@ description: Quando o Claude deve chamar este agente. Ex.: "Revisa textos para c
 tools: Read, Grep, Glob
 ---
 
-Você é <papel> da Live Idea. Fale sempre em português.
+Você é <papel> da LIVEIDEA. Fale sempre em português.
 
 ## Sua tarefa
 

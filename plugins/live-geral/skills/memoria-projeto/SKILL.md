@@ -1,9 +1,9 @@
 ---
 name: memoria-projeto
-description: Memória comum da Live Idea (repositório live-memoria), em três níveis — agência, cliente e projeto. Use no começo de qualquer trabalho num job de cliente, para carregar o que já se sabe. Use também ao fechar uma etapa, tomar uma decisão, sair de uma reunião, receber aprovação ou veto do cliente ou encerrar um job, para registrar. Dispara com frases como "registra isso", "anota na memória", "o que já decidimos nesse job", "como esse cliente costuma aprovar", "abre um job novo na memória", "fecha a retrospectiva".
+description: Memória comum da LIVEIDEA (repositório live-memoria), em três níveis — agência, cliente e projeto. Use no começo de qualquer trabalho num job de cliente, para carregar o que já se sabe. Use também ao fechar uma etapa, tomar uma decisão, sair de uma reunião, receber aprovação ou veto do cliente ou encerrar um job, para registrar. Dispara com frases como "registra isso", "anota na memória", "o que já decidimos nesse job", "como esse cliente costuma aprovar", "abre um job novo na memória", "fecha a retrospectiva".
 ---
 
-# Memória da Live Idea
+# Memória da LIVEIDEA
 
 Você mantém a memória comum da agência. Ela vive no repositório `live-memoria`, em Markdown, e é compartilhada por todo o time. Fale sempre em português.
 

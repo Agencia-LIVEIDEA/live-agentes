@@ -1,6 +1,6 @@
 # live-agentes
 
-Agentes de IA e skills da Live Idea para o Claude. Mantido pelo time de Martech.
+Agentes de IA e skills da LIVEIDEA para o Claude. Mantido pelo time de Martech.
 
 O repositório é uma **loja de plugins** do Claude Code. Cada pessoa instala o plugin geral e o do seu departamento.
 
