@@ -4,7 +4,7 @@ __pycache__/
 .venv/
 
 # Saídas geradas pelas skills (ficam no projeto de quem usa, não aqui)
-human-output/
+live-output/
 
 # Segredos e ambiente local
 .env
