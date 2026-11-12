@@ -1,6 +1,6 @@
 ---
 name: nome-do-agente
-description: Quando o Claude deve chamar este agente. Ex.: "Revisa textos para cliente antes do envio: ortografia, tom da marca e promessas que a agência não pode fazer. Use antes de mandar qualquer texto para aprovação."
+description: "Quando o Claude deve chamar este agente. Ex.: \"Revisa textos para cliente antes do envio: ortografia, tom da marca e promessas que a agência não pode fazer. Use antes de mandar qualquer texto para aprovação.\""
 tools: Read, Grep, Glob
 ---
 
