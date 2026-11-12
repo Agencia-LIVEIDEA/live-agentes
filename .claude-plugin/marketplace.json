@@ -1,0 +1,63 @@
+{
+  "name": "live-agentes",
+  "description": "Agentes de IA e skills da Live Idea: uma base geral para todo o time e um plugin por departamento.",
+  "owner": {
+    "name": "Live Idea · Martech"
+  },
+  "plugins": [
+    {
+      "name": "live-geral",
+      "source": "./plugins/live-geral",
+      "description": "Todo o time: skills e agentes gerais, como a memória comum dos projetos.",
+      "category": "geral"
+    },
+    {
+      "name": "live-atendimento",
+      "source": "./plugins/live-atendimento",
+      "description": "Atendimento: briefings, atas, status reports e relação com o cliente.",
+      "category": "departamento"
+    },
+    {
+      "name": "live-producao",
+      "source": "./plugins/live-producao",
+      "description": "Produção: cronogramas, checklists, fornecedores e execução de jobs.",
+      "category": "departamento"
+    },
+    {
+      "name": "live-financeiro",
+      "source": "./plugins/live-financeiro",
+      "description": "Financeiro: planilhas de custo, orçamentos, conciliação e faturamento.",
+      "category": "departamento"
+    },
+    {
+      "name": "live-planejamento",
+      "source": "./plugins/live-planejamento",
+      "description": "Planejamento: pesquisa, estratégia, insights e conceito.",
+      "category": "departamento"
+    },
+    {
+      "name": "live-criacao",
+      "source": "./plugins/live-criacao",
+      "description": "Criação: imagem, motion, cinematic, carrossel, social, DNA de marca e squad criativa (human-*).",
+      "category": "departamento"
+    },
+    {
+      "name": "live-marketing",
+      "source": "./plugins/live-marketing",
+      "description": "Marketing: conteúdo, redes sociais e cases da própria Live Idea.",
+      "category": "departamento"
+    },
+    {
+      "name": "live-rh",
+      "source": "./plugins/live-rh",
+      "description": "RH: recrutamento, onboarding e rotinas de pessoas.",
+      "category": "departamento"
+    },
+    {
+      "name": "live-martech",
+      "source": "./plugins/live-martech",
+      "description": "Martech: CRM, automação, dados e analytics.",
+      "category": "departamento"
+    }
+  ]
+}

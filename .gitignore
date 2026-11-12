@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Saídas geradas pelas skills (ficam no projeto de quem usa, não aqui)
+human-output/
+
+# Segredos e ambiente local
+.env
+.env.*
+*.key
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
