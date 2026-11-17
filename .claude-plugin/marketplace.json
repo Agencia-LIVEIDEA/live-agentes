@@ -12,6 +12,15 @@
       "category": "geral"
     },
     {
+      "name": "id-liveidea",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Agencia-LIVEIDEA/id-liveidea.git"
+      },
+      "description": "Design system da LIVEIDEA: aplica a identidade em apresentações, documentos e páginas HTML.",
+      "category": "geral"
+    },
+    {
       "name": "live-atendimento",
       "source": {
         "source": "git-subdir",
