@@ -9,6 +9,7 @@ Este repositório é a **loja de plugins** do Claude Code da agência. Ele guard
 | Plugin | Repositório | Para quem | Quem vê |
 | --- | --- | --- | --- |
 | `live-geral` | `live-agentes` (este) | Todo o time | Todos |
+| `id-liveidea` | `id-liveidea` | Todo o time (design system) | Todos |
 | `live-atendimento` | `live-atendimento` | Atendimento | Todos |
 | `live-producao` | `live-producao` | Produção | Todos |
 | `live-planejamento` | `live-planejamento` | Planejamento | Todos |
@@ -18,7 +19,16 @@ Este repositório é a **loja de plugins** do Claude Code da agência. Ele guard
 | `live-rh` | `live-rh` | RH | Só RH e Martech |
 | `live-financeiro` | `live-financeiro` | Financeiro | Só Financeiro e Martech |
 
-O que já existe: `memoria-projeto` e `id-liveidea` no `live-geral` e as 7 skills `live-*` no `live-criacao`. Os outros departamentos começam vazios.
+O que já existe: `memoria-projeto` no `live-geral`, a skill `id-liveidea` no plugin `id-liveidea` e as 7 skills `live-*` no `live-criacao`. Os outros departamentos começam vazios.
+
+## Dois caminhos de instalação
+
+| Onde você usa o Claude | Como instala |
+| --- | --- |
+| **Claude Code** (terminal, app desktop, VS Code) | Por esta loja, `live-agentes`, que reúne todos os plugins. Passo a passo abaixo. |
+| **claude.ai** (plugins da organização) | Uma loja por repositório: `live-agentes` (só o `live-geral`), `id-liveidea` e a do seu departamento. Ver [Como instalar (claude.ai)](#como-instalar-claudeai). |
+
+O conteúdo é o mesmo nos dois caminhos: cada plugin mora num repositório só.
 
 ## Como instalar (Claude Code)
 
@@ -34,6 +44,7 @@ Uma vez por computador. Você precisa ter acesso à organização `Agencia-LIVEI
 
    ```bash
    claude plugin install live-geral@live-agentes
+   claude plugin install id-liveidea@live-agentes
    claude plugin install live-criacao@live-agentes
    ```
 
@@ -43,7 +54,7 @@ Uma vez por computador. Você precisa ter acesso à organização `Agencia-LIVEI
    git clone https://github.com/Agencia-LIVEIDEA/live-memoria.git C:/dev/liveidea/live-memoria
    ```
 
-As skills aparecem como `/live-geral:memoria-projeto`, `/live-criacao:live-image` etc. Skills e agentes também entram sozinhos quando o pedido combina com a descrição deles.
+As skills aparecem como `/live-geral:memoria-projeto`, `/id-liveidea:id-liveidea`, `/live-criacao:live-image` etc. Skills e agentes também entram sozinhos quando o pedido combina com a descrição deles.
 
 Para receber as novidades: `claude plugin marketplace update live-agentes`.
 
@@ -52,11 +63,25 @@ Para receber as novidades: `claude plugin marketplace update live-agentes`.
 - **Erro de acesso ou de login** (`Authentication failed`, `Repository not found`): o seu computador precisa estar logado no GitHub pelo git, e você precisa ter acesso ao repositório do plugin. No Windows, clone qualquer repositório da organização uma vez para o Git Credential Manager pedir o login. Depois rode `setx CLAUDE_CODE_PLUGIN_PREFER_HTTPS 1`, feche e abra o terminal e tente de novo.
 - **`Filename too long`** (comum no `live-criacao`, que tem pastas fundas): rode `git config --global core.longpaths true` e tente de novo.
 
+## Como instalar (claude.ai)
+
+Feito por quem administra os plugins da organização no claude.ai, uma vez. O claude.ai não busca plugins que moram em outro repositório, por isso cada repositório é também uma loja própria.
+
+1. Em **Adicionar marketplace**, adicione um por vez, com **Sincronizar automaticamente** ligado:
+   - `Agencia-LIVEIDEA/live-agentes` (traz o `live-geral`)
+   - `Agencia-LIVEIDEA/id-liveidea` (design system)
+   - `Agencia-LIVEIDEA/live-<departamento>` (atendimento, producao, planejamento, criacao, marketing, martech)
+2. Habilite cada plugin por uma loja só, para a mesma skill não aparecer duas vezes.
+
+RH e Financeiro ficam fora do claude.ai por enquanto: usam o Claude Code.
+
+A skill `id-liveidea` no claude.ai também precisa do conector GitHub de cada pessoa para conferir a versão do design system. O passo a passo está no README do repositório `id-liveidea`.
+
 ## Estrutura
 
 ```
 live-agentes/                          ← este repositório (a loja)
-├── .claude-plugin/marketplace.json    ← lista os 9 plugins e onde cada um mora
+├── .claude-plugin/marketplace.json    ← lista os 10 plugins e onde cada um mora
 ├── .github/CODEOWNERS                 ← quem aprova mudanças
 ├── _modelos/                          ← ponto de partida para skill e agente novos
 │   ├── skill/SKILL.md
